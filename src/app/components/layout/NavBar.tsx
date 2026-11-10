@@ -43,7 +43,7 @@ export default function Navbar() {
         className={`mx-auto flex h-[50px] items-center justify-between bg-white px-5 shadow-lg transition-all duration-300 md:h-[90px] ${
           scrolled
             ? "mt-0 w-full rounded-none lg:px-[7%]"
-            : "mt-[18px] w-[92%] max-w-[1400px] rounded-2xl border border-[#dce1ed] lg:px-8"
+            : "mt-[18px] w-[92%] max-w-[1400px] rounded-2xl border border-[#dce1ed] lg:px-6"
         }`}
       >
 
