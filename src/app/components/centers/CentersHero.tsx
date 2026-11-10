@@ -18,7 +18,7 @@ export default function CentresHero() {
   ];
 
   return (
-    <section className="relative min-h-screen overflow-hidden bg-gradient-to-b from-[#eff6ff] via-white to-[#eff6ff] pt-[110px] pb-16">
+    <section className="relative min-h-screen overflow-hidden bg-gradient-to-b from-[#eff6ff] via-white to-[#eff6ff] pt-[65px] pb-16">
 
       
       <div className="pointer-events-none absolute left-0 top-40 opacity-40">
@@ -60,7 +60,7 @@ export default function CentresHero() {
 
           <div className="h-[2px] w-12 bg-[#cbd5e1]" />
 
-          <span className="rounded-full bg-[#e8edff] px-7 py-3 text-center text-sm font-bold tracking-[3px] text-[#29378e] md:text-base">
+          <span className="rounded-full bg-[#e8edff] px-7 py-2 text-center text-sm font-bold tracking-[3px] text-[#29378e] md:text-sm">
             OUR NETWORK OF CENTRES
           </span>
 
@@ -69,7 +69,7 @@ export default function CentresHero() {
         </div>
 
         
-        <h1 className="text-center text-3xl leading-tight font-bold text-[#101426] md:text-4xl">
+        <h1 className="text-center text-3xl leading-tight font-bold text-[#101426] md:text-3xl">
 
           Partnering with India's most trusted
 
@@ -86,7 +86,7 @@ export default function CentresHero() {
 
             <div
               key={badge.text}
-              className="flex items-center gap-3 rounded-full border border-[#a5b4fc] bg-white/80 px-5 py-3 text-base font-medium text-[#29378e] md:text-lg"
+              className="flex items-center gap-3 rounded-full border border-[#a5b4fc] bg-white/80 px-4 py-2 text-base font-medium text-[#29378e] md:text-md"
             >
 
               <span className="text-xl">

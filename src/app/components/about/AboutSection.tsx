@@ -3,7 +3,7 @@ import AboutFeatures from "./AboutFeatures";
 
 export default function AboutSection() {
   return (
-    <section className="relative overflow-hidden bg-white pt-[205px] pb-24">
+    <section className="relative overflow-hidden bg-white pt-[80px] pb-24">
 
       {/* Background Decoration */}
       <div className="pointer-events-none absolute left-0 top-36 opacity-30">
@@ -23,35 +23,35 @@ export default function AboutSection() {
       <div className="relative z-10 mx-auto grid max-w-[1540px] grid-cols-1 items-center gap-12 px-6 lg:grid-cols-2 lg:gap-[75px] lg:px-10">
 
         {/* Left Images Section */}
-        <div className="relative mb-12 min-h-[480px] sm:min-h-[620px]">
+        <div className="relative mb-12 min-h-[480px] sm:min-h-[450px]">
 
           {/* Main Team Image */}
           <img
             src="/about/team.webp"
             alt="SEART embryology team"
-            className="h-[450px] w-full rounded-[20px] object-cover shadow-sm sm:h-[570px]"
+            className="h-[450px] w-full rounded-[20px] object-cover shadow-sm sm:h-[450px]"
           />
 
           {/* Institute Badge */}
-          <div className="absolute top-5 left-[-10px] flex items-center gap-3 rounded-2xl bg-[#29378e] px-5 py-4 text-white shadow-lg sm:left-[-18px]">
+          <div className="absolute top-5 left-[-10px] flex items-center gap-3 rounded-2xl bg-[#29378e] px-5 py-2 text-white shadow-lg sm:left-[-18px]">
 
             <span className="text-2xl">♧</span>
 
-            <span className="text-sm font-semibold sm:text-base">
+            <span className="text-sm font-semibold sm:text-sm">
               India's Leading Embryology Institute
             </span>
 
           </div>
 
           {/* Students Count Card */}
-          <div className="absolute bottom-[-20px] left-[-10px] flex items-center gap-4 rounded-2xl border border-[#e0e5f3] bg-white px-5 py-5 shadow-lg sm:bottom-7 sm:left-[-18px] sm:px-6">
+          <div className="absolute bottom-[-20px] left-[-10px] flex items-center gap-4 rounded-2xl border border-[#e0e5f3] bg-white px-5 py-4 shadow-lg sm:bottom-7 sm:left-[-18px] sm:px-6">
 
             <div className="flex h-14 w-14 items-center justify-center rounded-full bg-[#f0f2fa] text-2xl text-[#29378e]">
               ♧
             </div>
 
             <div>
-              <h3 className="text-3xl font-bold text-[#101426]">
+              <h3 className="text-2xl font-bold text-[#101426]">
                 200+
               </h3>
 
@@ -111,7 +111,7 @@ export default function AboutSection() {
           <span>
             <a
               href="/enquiry"
-              className="flex w-50 h-15 mt-5  items-center gap-4 rounded-xl bg-[#29378e] px-8 py-5 font-semibold text-white shadow-xl transition duration-300 hover:bg-[#19266e]"
+              className="flex w-47 h-13 mt-5  items-center gap-4 rounded-xl bg-[#29378e] px-8 py-1 font-semibold text-white shadow-xl transition duration-300 hover:bg-[#19266e]"
             >
               Enroll Now
 

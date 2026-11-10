@@ -22,7 +22,7 @@ export default function EnquirySection() {
 
   return (
     <section
-      className="relative min-h-screen overflow-hidden bg-cover bg-center bg-no-repeat py-12 pt-[190px] md:py-16 md:pt-[210px]"
+      className="relative min-h-screen overflow-hidden bg-cover bg-center bg-no-repeat py-12 pt-[150px] md:py-16 md:pt-[80px]"
       style={{
         backgroundImage: "url('/enquiry/enquiry.webp')",
       }}
