@@ -4,10 +4,10 @@ import Link from "next/link";
 export default function TopBar() {
   return (
     <div className="fixed top-0 left-0 z-50 w-full bg-[#11132f] text-white">
-      <div className="mx-auto flex h-12.75 max-w-[1620px] items-center justify-between px-5 text-sm">
+      <div className="mx-auto flex h-12.75 max-w-[1620px] items-center justify-between px-15 text-sm">
 
         
-        <div className="flex items-center gap-6">
+        <div className="flex items-center text-[13px] gap-6">
 
           <span className="hidden lg:block">
             Have any questions?
@@ -34,7 +34,7 @@ export default function TopBar() {
         </div>
 
         
-        <div className="hidden items-center gap-7 lg:flex">
+        <div className="hidden items-center text-[13px] gap-7 lg:flex">
 
           <a href="#">
             ▤ Brochure Download
