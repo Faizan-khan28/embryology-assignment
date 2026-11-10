@@ -40,7 +40,7 @@ export default function Navbar() {
 
       
       <div
-        className={`mx-auto flex h-[50px] items-center justify-between bg-white px-5 shadow-lg transition-all duration-300 md:h-[108px] ${
+        className={`mx-auto flex h-[50px] items-center justify-between bg-white px-5 shadow-lg transition-all duration-300 md:h-[90px] ${
           scrolled
             ? "mt-0 w-full rounded-none lg:px-[7%]"
             : "mt-[18px] w-[92%] max-w-[1650px] rounded-2xl border border-[#dce1ed] lg:px-10"
@@ -63,7 +63,7 @@ export default function Navbar() {
             <Link
               key={link.name}
               href={link.href}
-              className={`relative whitespace-nowrap text-[17px] font-medium transition hover:text-[#29378e] ${
+              className={`relative whitespace-nowrap text-[16px] font-medium transition hover:text-[#29378e] ${
                 pathname === link.href
                   ? "text-[#29378e] after:absolute after:-bottom-4 after:left-0 after:h-[3px] after:w-full after:bg-[#29378e]"
                   : "text-[#202a3c]"
@@ -72,7 +72,7 @@ export default function Navbar() {
               {link.name}
 
               {link.name === "Courses" && (
-                <span className="ml-2">⌄</span>
+                  <span className="ml-2">⌄</span>
               )}
 
             </Link>
@@ -83,9 +83,9 @@ export default function Navbar() {
         
         <Link
           href="/enquiry"
-          className="hidden items-center gap-3 rounded-xl bg-[#29378e] px-6 py-4 font-semibold text-white shadow-lg transition hover:bg-[#19266e] lg:flex"
+          className="hidden items-center gap-3 rounded-xl bg-[#29378e] px-5 py-3 font-semibold text-white shadow-lg transition hover:bg-[#19266e] lg:flex"
         >
-          Enroll Now <span className="text-xl">→</span>
+          Enroll Now <span className="text-md">→</span>
         </Link>
 
         

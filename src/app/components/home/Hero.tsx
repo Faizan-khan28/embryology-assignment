@@ -1,4 +1,3 @@
-
 export default function Hero() {
   const features = [
     {
@@ -42,7 +41,7 @@ export default function Hero() {
       <div className="relative z-10 mx-auto max-w-[1620px] px-6 pb-10 pt-[190px] md:pt-[220px] lg:px-10 lg:pt-[245px]">
 
         
-        <div className="mb-7 inline-flex flex-wrap items-center gap-2 rounded-full border border-gray-200 bg-white/90 px-5 py-3 text-sm text-[#29378e] shadow-sm md:text-base">
+        <div className="mb-5 ml-15 inline-flex flex-wrap items-center gap-2 rounded-full border border-gray-200 bg-white/90 px-5 py-3 text-sm text-[#29378e] shadow-sm md:text-md">
 
           <span>♧</span>
 
@@ -61,9 +60,9 @@ export default function Hero() {
         </div>
 
         
-        <div className="max-w-[850px]">
+        <div className="max-w-[850px] pl-15">
 
-          <h1 className="text-4xl leading-[1.12] font-extrabold tracking-tight text-[#080b1c] sm:text-5xl md:text-6xl lg:text-[76px]">
+          <h1 className="text-4xl leading-[1.12] font-extrabold tracking-tight text-[#080b1c] sm:text-4xl md:text-5xl lg:text-[55px]">
 
             Shape Your Career with
 
@@ -83,11 +82,11 @@ export default function Hero() {
 
           </p>
 
-          <div className="mt-10 flex flex-wrap gap-5">
+          <div className="mt-5 flex flex-wrap gap-5">
 
             <a
               href="/enquiry"
-              className="flex items-center gap-4 rounded-xl bg-[#29378e] px-8 py-5 font-semibold text-white shadow-xl transition duration-300 hover:bg-[#19266e]"
+              className="flex items-center gap-4 rounded-xl bg-[#29378e] px-6 py-3 font-semibold text-white shadow-xl transition duration-300 hover:bg-[#19266e]"
             >
               Enroll Now
 
@@ -99,7 +98,7 @@ export default function Hero() {
 
             <a
               href="#courses"
-              className="rounded-xl border-2 border-[#29378e] bg-white/60 px-8 py-5 font-semibold text-[#29378e] transition duration-300 hover:bg-[#29378e] hover:text-white"
+              className="rounded-xl border-2 border-[#29378e] bg-white/60 px-6 py-3 font-semibold text-[#29378e] transition duration-300 hover:bg-[#29378e] hover:text-white"
             >
               Explore Courses
             </a>
