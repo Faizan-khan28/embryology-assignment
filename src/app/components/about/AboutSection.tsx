@@ -66,7 +66,7 @@ export default function AboutSection() {
           <div className="absolute right-[-5px] bottom-[-30px] h-[155px] w-[180px] overflow-hidden rounded-2xl border-[5px] border-white bg-white shadow-xl sm:right-[-10px] sm:bottom-[-25px] sm:h-[230px] sm:w-[270px]">
 
             <img
-              src="/about/team.webp"
+              src="/about/students.webp"
               alt="Embryology students"
               className="h-full w-full object-cover"
             />
