@@ -43,7 +43,7 @@ export default function Navbar() {
         className={`mx-auto flex h-[50px] items-center justify-between bg-white px-5 shadow-lg transition-all duration-300 md:h-[90px] ${
           scrolled
             ? "mt-0 w-full rounded-none lg:px-[7%]"
-            : "mt-[18px] w-[92%] max-w-[1650px] rounded-2xl border border-[#dce1ed] lg:px-10"
+            : "mt-[18px] w-[92%] max-w-[1400px] rounded-2xl border border-[#dce1ed] lg:px-8"
         }`}
       >
 
@@ -83,9 +83,9 @@ export default function Navbar() {
         
         <Link
           href="/enquiry"
-          className="hidden items-center gap-3 rounded-xl bg-[#29378e] px-5 py-3 font-semibold text-white shadow-lg transition hover:bg-[#19266e] lg:flex"
+          className="hidden text-[15px] items-center gap-3 rounded-xl bg-[#29378e] px-5 py-3 font-semibold text-white shadow-lg transition hover:bg-[#19266e] lg:flex"
         >
-          Enroll Now <span className="text-md">→</span>
+          Enroll Now <span className="text-sm">→</span>
         </Link>
 
         
