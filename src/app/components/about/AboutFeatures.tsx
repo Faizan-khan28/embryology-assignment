@@ -25,14 +25,14 @@ export default function AboutFeatures() {
       {features.map((item) => (
         <div
           key={item.title}
-          className="flex min-h-[95px] items-center gap-4 rounded-2xl border border-[#e0e5f3] bg-white p-5 transition-all duration-300 hover:shadow-md"
+          className="flex min-h-[95px] items-center gap-4 rounded-2xl border border-[#e0e5f3] bg-white  p-[16px] transition-all duration-300 hover:shadow-md"
         >
 
-          <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-[#f0f2fa] text-2xl text-[#29378e]">
+          <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-[#f0f2fa] text-xl text-[#29378e]">
             {item.icon}
           </div>
 
-          <h3 className="text-base font-medium leading-6 text-[#26364e]">
+          <h3 className="text-sm font-medium leading-6 text-[#26364e]">
             {item.title}
           </h3>
 

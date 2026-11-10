@@ -4,6 +4,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { FaArrowRight } from "react-icons/fa6";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -85,7 +86,7 @@ export default function Navbar() {
           href="/enquiry"
           className="hidden text-[15px] items-center gap-3 rounded-xl bg-[#29378e] px-5 py-3 font-semibold text-white shadow-lg transition hover:bg-[#19266e] lg:flex"
         >
-          Enroll Now <span className="text-sm">→</span>
+          Enroll Now <span className="text-sm"><FaArrowRight  className="text-md font-extralight"/></span>
         </Link>
 
         
