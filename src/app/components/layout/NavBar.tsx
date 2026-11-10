@@ -36,11 +36,11 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="fixed top-[51px] left-0 z-40 w-full">
+    <nav className="fixed top-12.75 left-0 z-40 w-full">
 
       {/* Navbar Container */}
       <div
-        className={`mx-auto flex h-[85px] items-center justify-between bg-white px-5 shadow-lg transition-all duration-300 md:h-[108px] ${
+        className={`mx-auto flex h-[50px] items-center justify-between bg-white px-5 shadow-lg transition-all duration-300 md:h-[108px] ${
           scrolled
             ? "mt-0 w-full rounded-none lg:px-[7%]"
             : "mt-[18px] w-[92%] max-w-[1650px] rounded-2xl border border-[#dce1ed] lg:px-10"
@@ -50,7 +50,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" className="shrink-0">
           <img
-            src="navlogo.webp"
+            src="/images/navlogo.webp"
             alt="SEART Logo"
             className="h-[55px] w-[190px] object-contain md:h-[65px] md:w-[235px]"
           />
