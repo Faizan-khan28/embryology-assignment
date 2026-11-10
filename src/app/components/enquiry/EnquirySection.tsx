@@ -32,7 +32,7 @@ export default function EnquirySection() {
       <div className="absolute inset-0 bg-[#edf4ff]/60" />
 
       {/* Main Content */}
-      <div className="relative z-10 mx-auto grid max-w-[1150px] grid-cols-1 items-center gap-10 px-5 lg:grid-cols-2 lg:gap-8">
+      <div className="relative z-10 mx-auto grid max-w-[1350px] grid-cols-1 items-center gap-10 px-5 lg:grid-cols-2 lg:gap-8">
 
         {/* Left Content */}
         <div className="mx-auto w-full max-w-[500px]">
@@ -98,7 +98,7 @@ export default function EnquirySection() {
         </div>
 
         {/* Right Form */}
-        <div className="mx-auto w-full max-w-[560px]">
+        <div className="mx-auto w-full max-w-[600px]">
           <EnquiryForm />
         </div>
 
