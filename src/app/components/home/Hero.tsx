@@ -1,4 +1,4 @@
-import { FaGraduationCap } from "react-icons/fa6";
+import { HiOutlineAcademicCap } from "react-icons/hi2";
 export default function Hero() {
   const features = [
     {
@@ -53,7 +53,7 @@ export default function Hero() {
  
         <div className="mb-5 ml-15 inline-flex flex-wrap items-center gap-2 rounded-full border border-gray-200 bg-white/90 px-5 py-3 text-sm text-[#29378e] shadow-sm md:text-md">
  
-          <span className="text-blue-900"><FaGraduationCap /></span>
+          <span className="text-blue-900 text-[16px]"><HiOutlineAcademicCap /></span>
  
           <span>
             Off-Site Campus of Gurugram University
