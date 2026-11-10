@@ -18,7 +18,7 @@ export default function CentresHero() {
   ];
 
   return (
-    <section className="relative min-h-screen overflow-hidden bg-gradient-to-b from-[#eff6ff] via-white to-[#eff6ff] pt-[195px] pb-16">
+    <section className="relative min-h-screen overflow-hidden bg-gradient-to-b from-[#eff6ff] via-white to-[#eff6ff] pt-[110px] pb-16">
 
       
       <div className="pointer-events-none absolute left-0 top-40 opacity-40">
