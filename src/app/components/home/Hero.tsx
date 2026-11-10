@@ -23,8 +23,7 @@ export default function Hero() {
     },
   ];
  
-  // Image ke left aur top edge ko soft fade karta hai, taaki wo background (DNA wali)
-  // me melt ho jaye aur koi hard line na dikhe. Original site me bhi yahi effect hai.
+  
   const imageFadeMask =
     "linear-gradient(to right, transparent 0%, #000 28%), linear-gradient(to bottom, transparent 0%, #000 16%)";
  
@@ -36,8 +35,7 @@ export default function Hero() {
         backgroundPosition: "center top",
       }}
     >
-      {/* Embryologist Image - Desktop */}
-      {/* top-[110px]: image navbar ke peeche se start hoti hai, fade wala hissa navbar ke neeche chhup jata hai */}
+      
       <img
         src="/home/hero-embryologist.webp"
         alt="Embryologist working with microscope"
