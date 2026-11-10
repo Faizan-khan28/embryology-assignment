@@ -52,7 +52,7 @@ export default function LogoRow({
             key={`${partner.name}-${index}`}
             className="!w-[190px] md:!w-[180px]"
           >
-            <div className="partner-card flex h-[112px] items-center justify-center rounded-[22px] border border-[#e0e5f3] bg-white px-4 py-3 shadow-sm transition-all duration-300 ease-in-out hover:scale-95 hover:shadow-md md:h-[115px]">
+            <div className="partner-card flex h-[112px] items-center justify-center rounded-[22px] border border-[#e0e5f3] bg-white px-8 py-3 shadow-sm transition-all duration-300 ease-in-out hover:scale-95 hover:shadow-md md:h-[115px]">
 
               <img
                 src={`/centres/${partner.image}`}

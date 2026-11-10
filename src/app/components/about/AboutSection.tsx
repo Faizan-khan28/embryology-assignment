@@ -79,7 +79,7 @@ export default function AboutSection() {
         <div>
 
           {/* Small Heading */}
-          <span className="inline-block rounded-md bg-[#f0f2fa] px-5 py-3 text-sm font-bold tracking-[3px] text-[#29378e]">
+          <span className="inline-block rounded-md bg-[#f0f2fa] px-4 py-2 text-[12px] font-bold tracking-[3px] text-[#29378e]">
             ABOUT SEART
           </span>
 
