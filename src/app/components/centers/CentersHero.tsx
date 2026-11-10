@@ -20,7 +20,7 @@ export default function CentresHero() {
   return (
     <section className="relative min-h-screen overflow-hidden bg-gradient-to-b from-[#eff6ff] via-white to-[#eff6ff] pt-[195px] pb-16">
 
-      {/* Background Network Design */}
+      
       <div className="pointer-events-none absolute left-0 top-40 opacity-40">
         <svg width="260" height="270" viewBox="0 0 260 270" fill="none">
           <path
@@ -36,7 +36,7 @@ export default function CentresHero() {
         </svg>
       </div>
 
-      {/* Right Network Design */}
+     
       <div className="pointer-events-none absolute right-0 top-64 rotate-180 opacity-40">
         <svg width="230" height="270" viewBox="0 0 260 270" fill="none">
           <path
@@ -52,10 +52,10 @@ export default function CentresHero() {
         </svg>
       </div>
 
-      {/* Heading Content */}
+      
       <div className="relative z-10 mx-auto max-w-[1500px] px-5">
 
-        {/* Small Label */}
+        
         <div className="mb-8 flex items-center justify-center gap-5">
 
           <div className="h-[2px] w-12 bg-[#cbd5e1]" />
@@ -68,7 +68,7 @@ export default function CentresHero() {
 
         </div>
 
-        {/* Main Heading */}
+        
         <h1 className="text-center text-3xl leading-tight font-bold text-[#101426] md:text-4xl">
 
           Partnering with India's most trusted
@@ -79,7 +79,7 @@ export default function CentresHero() {
 
         </h1>
 
-        {/* Information Badges */}
+        
         <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
 
           {badges.map((badge) => (
@@ -103,7 +103,7 @@ export default function CentresHero() {
 
       </div>
 
-      {/* Partner Logos */}
+      
       <div className="relative z-10 mt-12">
         <PartnerLogos />
       </div>

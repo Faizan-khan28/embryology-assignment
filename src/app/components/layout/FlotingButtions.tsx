@@ -4,7 +4,7 @@ import { IoChatbubbleOutline } from "react-icons/io5";
 export default function FloatingButtons() {
   return (
     <>
-      {/* WhatsApp Button */}
+      
       <a
         href="https://wa.me/919870109545"
         target="_blank"
@@ -15,7 +15,7 @@ export default function FloatingButtons() {
        <FaWhatsapp />
       </a>
 
-      {/* Chat Button */}
+      
       <button
         type="button"
         aria-label="Open chat"

@@ -6,7 +6,7 @@ export default function TopBar() {
     <div className="fixed top-0 left-0 z-50 w-full bg-[#11132f] text-white">
       <div className="mx-auto flex h-12.75 max-w-[1620px] items-center justify-between px-5 text-sm">
 
-        {/* Left Side */}
+        
         <div className="flex items-center gap-6">
 
           <span className="hidden lg:block">
@@ -33,7 +33,7 @@ export default function TopBar() {
 
         </div>
 
-        {/* Right Side */}
+        
         <div className="hidden items-center gap-7 lg:flex">
 
           <a href="#">

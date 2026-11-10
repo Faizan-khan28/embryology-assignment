@@ -31,17 +31,17 @@ export default function Hero() {
         backgroundPosition: "center top",
       }}
     >
-      {/* Embryologist Image - Desktop */}
+      
       <img
         src="/home/hero-embryologist.webp"
         alt="Embryologist working with microscope"
         className="absolute right-0 top-[170px] z-0 hidden h-auto w-[80%] max-w-[1100px] lg:block"
       />
 
-      {/* Hero Content */}
+      
       <div className="relative z-10 mx-auto max-w-[1620px] px-6 pb-10 pt-[190px] md:pt-[220px] lg:px-10 lg:pt-[245px]">
 
-        {/* University Badge */}
+        
         <div className="mb-7 inline-flex flex-wrap items-center gap-2 rounded-full border border-gray-200 bg-white/90 px-5 py-3 text-sm text-[#29378e] shadow-sm md:text-base">
 
           <span>♧</span>
@@ -60,7 +60,7 @@ export default function Hero() {
 
         </div>
 
-        {/* Heading and Description */}
+        
         <div className="max-w-[850px]">
 
           <h1 className="text-4xl leading-[1.12] font-extrabold tracking-tight text-[#080b1c] sm:text-5xl md:text-6xl lg:text-[76px]">
@@ -83,7 +83,6 @@ export default function Hero() {
 
           </p>
 
-          {/* Buttons */}
           <div className="mt-10 flex flex-wrap gap-5">
 
             <a

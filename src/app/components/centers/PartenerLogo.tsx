@@ -72,7 +72,7 @@ function LogoRow({ partners, reverse = false }: LogoRowProps) {
             className="!w-[190px] md:!w-[225px]"
           >
 
-            {/* Logo Card */}
+            
             <div className="flex h-[112px] items-center justify-center rounded-[22px] border border-[#e0e5f3] bg-white px-5 shadow-sm transition-all duration-300 cursor-pointer hover:border-gray-400 ease-in-out hover:scale-95 hover:shadow-md md:h-[115px]">
 
               <img
@@ -99,10 +99,10 @@ export default function PartnerLogos() {
   return (
     <div className="w-full space-y-8">
 
-      {/* First Row - Left Direction */}
+      
       <LogoRow partners={firstRow} />
 
-      {/* Second Row - Right Direction */}
+      
       <LogoRow partners={secondRow} reverse />
 
     </div>

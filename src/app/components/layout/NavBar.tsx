@@ -38,7 +38,7 @@ export default function Navbar() {
   return (
     <nav className="fixed top-12.75 left-0 z-40 w-full">
 
-      {/* Navbar Container */}
+      
       <div
         className={`mx-auto flex h-[50px] items-center justify-between bg-white px-5 shadow-lg transition-all duration-300 md:h-[108px] ${
           scrolled
@@ -47,7 +47,7 @@ export default function Navbar() {
         }`}
       >
 
-        {/* Logo */}
+        
         <Link href="/" className="shrink-0">
           <img
             src="/images/navlogo.webp"
@@ -56,7 +56,7 @@ export default function Navbar() {
           />
         </Link>
 
-        {/* Desktop Navigation */}
+        
         <div className="hidden items-center gap-5 xl:flex">
 
           {navLinks.map((link) => (
@@ -80,7 +80,7 @@ export default function Navbar() {
 
         </div>
 
-        {/* Enroll Button */}
+        
         <Link
           href="/enquiry"
           className="hidden items-center gap-3 rounded-xl bg-[#29378e] px-6 py-4 font-semibold text-white shadow-lg transition hover:bg-[#19266e] lg:flex"
@@ -88,7 +88,7 @@ export default function Navbar() {
           Enroll Now <span className="text-xl">→</span>
         </Link>
 
-        {/* Mobile Menu Button */}
+        
         <button
           onClick={() => setMenuOpen(!menuOpen)}
           className="text-3xl text-[#29378e] xl:hidden"
@@ -100,7 +100,7 @@ export default function Navbar() {
 
       </div>
 
-      {/* Mobile Navigation */}
+      
       {menuOpen && (
         <div className="mx-auto w-full bg-white px-6 py-4 shadow-xl xl:hidden">
 

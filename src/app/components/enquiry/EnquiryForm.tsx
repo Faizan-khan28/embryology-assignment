@@ -16,12 +16,12 @@ export default function EnquiryForm() {
   return (
     <div className="rounded-2xl border border-[#dce2f0] bg-white p-5 shadow-lg sm:p-7">
 
-      {/* Form Heading */}
+      
       <h2 className="text-xl font-bold text-[#101426]">
         How to get started
       </h2>
 
-      {/* Steps */}
+      
       <div className="mt-5 flex flex-wrap items-center justify-between gap-3 border-b border-[#dce2f0] pb-5">
 
         <div className="flex items-center gap-2">
@@ -64,12 +64,12 @@ export default function EnquiryForm() {
 
       </div>
 
-      {/* Form */}
+      
       <form onSubmit={handleSubmit} className="mt-5">
 
         <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
 
-          {/* Full Name */}
+          
           <div>
             <label className="mb-2 block text-sm font-semibold text-[#101426]">
               Full Name
@@ -84,7 +84,7 @@ export default function EnquiryForm() {
             />
           </div>
 
-          {/* Mobile Number */}
+          
           <div>
             <label className="mb-2 block text-sm font-semibold text-[#101426]">
               Mobile Number (WhatsApp)
@@ -114,7 +114,7 @@ export default function EnquiryForm() {
             </div>
           </div>
 
-          {/* Email */}
+          
           <div>
             <label className="mb-2 block text-sm font-semibold text-[#101426]">
               Email Address
@@ -129,7 +129,7 @@ export default function EnquiryForm() {
             />
           </div>
 
-          {/* Select Course */}
+          
           <div>
             <label className="mb-2 block text-sm font-semibold text-[#101426]">
               Select Course
@@ -162,7 +162,7 @@ export default function EnquiryForm() {
 
         </div>
 
-        {/* Additional Message */}
+        
         <div className="mt-5">
 
           <label className="mb-2 block text-sm font-semibold text-[#101426]">
@@ -181,7 +181,7 @@ export default function EnquiryForm() {
 
         </div>
 
-        {/* Submit Button */}
+        
         <button
           type="submit"
           className="mt-5 flex h-11 w-full items-center justify-center gap-3 rounded-lg bg-[#29378e] font-semibold text-white transition hover:bg-[#19266e]"
@@ -190,7 +190,7 @@ export default function EnquiryForm() {
           <span className="text-lg">→</span>
         </button>
 
-        {/* Success Message */}
+        
         {submitted && (
           <p className="mt-4 rounded-lg bg-green-50 p-3 text-center text-sm font-medium text-green-700">
             Your enquiry has been submitted successfully!
