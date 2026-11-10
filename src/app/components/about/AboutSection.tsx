@@ -111,7 +111,7 @@ export default function AboutSection() {
           <span>
             <a
               href="/enquiry"
-              className="flex w-47 h-13 mt-5  items-center gap-4 rounded-xl bg-[#29378e] px-7 py-3 font-semibold text-white shadow-xl transition duration-300 hover:bg-[#19266e]"
+              className="flex w-47 h-13 mt-5  items-center gap-4 rounded-xl bg-[#29378e] px-7 py-3.5 font-semibold text-white shadow-xl transition duration-300 hover:bg-[#19266e]"
             >
               Enroll Now
 
