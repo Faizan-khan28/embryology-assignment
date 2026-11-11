@@ -52,11 +52,11 @@ export default function Hero() {
         }}
       />
 
-      {/* Mobile: side padding px-4, top padding thodi kam (165px) */}
-      <div className="relative z-10 mx-auto max-w-[1620px] px-4 pb-10 pt-[165px] sm:px-6 sm:pt-[190px] md:pt-[220px] lg:px-10 lg:pt-[245px]">
+      {/* Mobile: side padding px-4, top padding thodi kam (168px) */}
+      <div className="relative z-10 mx-auto max-w-[1620px] px-4 pb-10 pt-[168px] sm:px-6 sm:pt-[190px] md:pt-[220px] lg:px-10 lg:pt-[245px]">
 
         {/* Badge: mobile par full-width pill, content center me; sm+ par pehle jaisa inline pill */}
-        <div className="mb-6 flex w-full flex-wrap items-center justify-center gap-x-2 gap-y-1.5 rounded-full border border-gray-200 bg-white/90 px-5 py-2.5 text-center text-[13px] text-[#29378e] shadow-sm sm:mb-5 sm:ml-15 sm:inline-flex sm:w-auto sm:justify-start sm:gap-2 sm:py-3 sm:text-left sm:text-sm md:text-md">
+        <div className="mb-[22px] flex w-full flex-wrap items-center justify-center gap-x-2 gap-y-1 rounded-full border border-gray-200 bg-white/90 px-5 py-2 text-center text-[13px] text-[#29378e] shadow-sm sm:mb-5 sm:ml-15 sm:inline-flex sm:w-auto sm:justify-start sm:gap-2 sm:py-3 sm:text-left sm:text-sm md:text-md">
 
           <span className="text-blue-900 text-[16px]"><HiOutlineAcademicCap /></span>
 
@@ -77,17 +77,18 @@ export default function Hero() {
         {/* pl-15 ab sirf sm+ par, mobile par left se touching */}
         <div className="max-w-[850px] sm:pl-15">
 
-          <h1 className="text-[40px] leading-[1.1] font-extrabold tracking-tight text-[#080b1c] sm:text-4xl sm:leading-[1.12] md:text-5xl lg:text-[55px]">
+          <h1 className="text-[39.5px] leading-[1.1] font-extrabold tracking-tight text-[#080b1c] sm:text-4xl sm:leading-[1.12] md:text-5xl lg:text-[55px]">
 
-            Shape Your Career with
+            Shape Your Career with{" "}
 
-            <span className="block text-[#29378e]">
+            {/* mobile par inline (with Clinical ek line me), sm+ par block */}
+            <span className="text-[#29378e] sm:block">
               Clinical Embryology
             </span>
 
           </h1>
 
-          <p className="mt-6 max-w-[680px] text-base leading-[1.7] text-[#40536d] sm:mt-7 sm:text-lg md:text-xl">
+          <p className="mt-[22px] max-w-[680px] text-base leading-[1.7] text-[#40536d] sm:mt-7 sm:text-lg md:text-xl">
 
             Gain in-depth knowledge and hands-on training in embryology
             with our Master's, Integrated B.Sc. + M.Sc. and Fellowship in
@@ -102,7 +103,7 @@ export default function Hero() {
 
             <a
               href="/enquiry"
-              className="flex items-center justify-center gap-4 rounded-xl bg-[#29378e] px-6 py-3.5 font-semibold text-white shadow-xl transition duration-300 hover:bg-[#19266e] sm:py-3"
+              className="flex items-center justify-center gap-2.5 rounded-xl bg-[#29378e] px-6 py-3.5 font-semibold text-white shadow-xl transition duration-300 hover:bg-[#19266e] sm:gap-4 sm:py-3"
             >
               Enroll Now
 
